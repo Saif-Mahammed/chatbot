@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! How can I assist you today?",
+        "Hello! Welcome, what can I do for you?",
+        "Hi there, what can I help you with?",
+        "Hi there, how are you doing? What brings you here?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for dropping by!",
+        "Have a wonderful day!",
+        "Bye! Don't hesitate to return anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to assist!", "You're welcome!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "about_me",
+      "patterns": [
+        "Tell me about yourself",
+        "What are your skills?",
+        "What projects have you worked on?",
+        "Can you share your portfolio?",
+        "Who are you?",
+        "Tell me about Saif Mahammed"
+      ],
+      "responses": [
+        "Sure! I'm Saif Mahammed, a front-end web developer with extraordinary UI skills, specializing in building exceptional digital experiences. I have experience with HTML, CSS, JavaScript, React, Next.js, Redux, Tailwind, and RESTAPI. I've worked on several projects including Alpha Apex, Phantom Media, Movix, and Let Me Know. You can check out my portfolio for more details!",
+        "I'm Saif Mahammed, a passionate front-end web developer known for my exceptional UI designs and great logical skills. My portfolio includes projects like Alpha Apex, Phantom Media, Movix, and Let Me Know. Feel free to explore my portfolio for more information about my skills and projects!"
+      ]
+    }
+  ]
+}
